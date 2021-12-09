@@ -9,6 +9,7 @@ margin-top: 16px;
 `;
 
 // container das duas tabs;
+
 export const WrapperTabList = styled(TabList)`
 list-style-type: none;
 justify-content: center;

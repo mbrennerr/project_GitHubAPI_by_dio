@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   align-items: flex-start;
+
+  @media(max-width: 800px) {
+  display: grid;
+  };
+}
 `;
 
 export const WrapperInfosUser = styled.div`
@@ -15,16 +20,25 @@ export const WrapperInfosUser = styled.div`
   h1 {
     font-size:32px;
     font-weight: bold;
+    @media(max-width: 800px) {
+      font-size:20px;
+     };
   }
 
   h3 {
     font-size:18px;
     font-weight: bold;
+    @media(max-width: 800px) {
+      font-size:13px;
+     };
   }
 
   h4 {
     font-size:16px;
     font-weight: bold;
+    @media(max-width: 800px) {
+      font-size:13px;
+     };
   }
 
   
@@ -59,4 +73,9 @@ export const WrapperImage = styled.img`
   border-radius: 50%;
   width: 200px;
   margin: 8px;
+  @media(max-width: 800px) {
+      margin:30px;
+      width:300px;
+      
+     };
 `;
