@@ -12,11 +12,11 @@ export const Header = () => {
   };
 
   return (
-    <header>
-      <S.Wrapper>
+    <S.Wrapper >
+      <>
         <input 
           type="text"
-          placeholder="Enter github username for search..." onChange={(event) => setUsernameForSearch(event.target.value)}
+          placeholder="Enter github username" onChange={(event) => setUsernameForSearch(event.target.value)}
         />
         <button
          type="submit"
@@ -26,7 +26,7 @@ export const Header = () => {
           Search
           </span>
         </button>
-      </S.Wrapper>
-    </header>
-  )
+      </>
+    </S.Wrapper>
+      )
 }

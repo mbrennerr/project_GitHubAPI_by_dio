@@ -1,26 +1,33 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  display:flex;
-  width: 100%;
-  justify-content: space-between;
+  display:grid;
+  grid-column: 1/3;
+  align-items:center;
+  justify-items: center;
+  width: 90%;
+  height: 150px;
+  border: 1px solid #202020;
+  margin-bottom: 20px;
+
 
   input {
     border: 1px solid #ccc;
     border-radius: 8px;
-    width: 100%;
-    height: 44px;
-    padding: 8px;
-    font-weight: 500;   
+    width: 30%;
+    height: 50px;
+    padding: 10px;
+    font-weight: 500;
     
   }
   button{
     background-color: #225ed8;
-    padding: 8px 16px;
-    margin: 0 16px;
+    width: 10%;
+    height: 40px;
+    padding: 0 60px; 
     border-radius: 8px;
     font-weight: bold;
-    font-size:16px;
+    font-size:20px;
 
     span {
       font-weight: bold;

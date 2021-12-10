@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const WrapperLayout = styled.div`
-  margin: 16px;
-  /* background-color:#202020;
-  height:100vh; */
+    display: grid;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #202020;
+    /* background-color:#202020; */
+    justify-items: center;
 `;

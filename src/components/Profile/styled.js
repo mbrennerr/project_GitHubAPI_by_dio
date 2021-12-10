@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 1/3;
+  justify-items: center;
+  border: solid 1px #202020;
 
   @media(max-width: 800px) {
   display: grid;
   };
-}
+
 `;
 
 export const WrapperInfosUser = styled.div`
